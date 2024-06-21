@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter",sans-serif;
+}
+#root{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 20px;
+   flex-direction: row;
+   flex-grow: 1;
+  
+}
+h3{
+    margin: 10px 0;
+}
+h6{
+    margin: 10px 0;
+}
+p{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    margin-top: 15px;
+   
+}
+.loc{
+    text-align: center;
+   
+}
+.container{
+    background-color: #353b48;
+    border-radius: 6px;
+    color: #b3b8cd;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0,0.75);
+    padding-top: 30px;
+    text-align: center;
+    width: 350px;
+    position: relative;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.b1{
+    background-color: #0984e3;
+    border: 1px solid #0984e3;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Inter";
+    font-weight: 500;
+}
+.b2{
+    background-color:transparent;
+    border: 1px solid #0984e3;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Inter";
+    font-weight: 500;
+}
+.image{
+    border-radius: 50%;
+    width: 30%;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+.pro{
+    color: #231e39;
+    background-color: red;
+    border-radius: 3px;
+    padding: 3px 5px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    left: 30px;
+    top: 30px;
+
+}
+.online{
+    background-color: greenyellow;
+}
+.offline{
+background-color: #febb0b;
+}
+.skills{
+    text-align: left;
+    border-left:10px ;
+    background-color: #2f3640;
+    padding: 15px;
+    
+    margin-top: 15px;
+}
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills ul li{
+    border: 1px solid #595180;
+    display: inline-block;
+    margin:  0px 7px 7px 0px
+    ;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 2px;
+
+}

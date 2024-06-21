@@ -1,0 +1,18 @@
+.student table{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    width: 300px;
+}
+.student table td ,.student table th{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.student table th{
+    width: 200px;
+}
+.student table td{
+    width: 200px;
+}
